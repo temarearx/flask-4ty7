@@ -1,0 +1,293 @@
+.containerrr {
+  margin-bottom: 20px;
+}
+
+.alert {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.alert h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.alert p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btnn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #00FFFF;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btnn:hover {
+  background-color: #00FFFF;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand svg {
+  vertical-align: middle;
+}
+
+.offcanvas-body {
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #ff7f00;
+}
+
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer h5 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ff7f00;
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+
+
+.komandablock {
+    display: flex;
+    justify-content: space-around; /* Выравнивание элементов по горизонтали */
+    align-items: center; /* Выравнивание элементов по вертикали */
+    margin-bottom: 20px; /* Пример отступа между рядами */
+    /* Другие стили по вашему усмотрению */
+}
+
+
+
+.komandablock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.sovdirimg img {
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sovdirinfo {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.sovdirname {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.soVDirdolzhnost {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.sovdirdescrip {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #333;
+}
+
+.upsovdir {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3285D1;
+}
+
+.upsovdir svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    fill: #3285D1;
+}
+
+
+
+
+/* Container styles */
+.containerr {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.containerr h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.containerr h2 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Alert/info box styles */
+.containerr .alert {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.containerr .alert p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.containerr .alert b {
+    font-weight: bold;
+}
+
+/* Button styles */
+.containerr .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.containerr .btn-danger {
+    background-color: #d9534f;
+}
+
+.containerr .btn-success {
+    background-color: #5cb85c;
+}
+
+.containerr .btn:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+/* Column layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; /* Adjust as needed */
+}
+
+.col-md-6 {
+    flex: 0 0 50%; /* Two columns in a row */
+    padding: 0 15px; /* Adjust as needed */
+}
+
+/* Individual post styles */
+.containerrr {
+    margin-bottom: 20px;
+}
+
+.alert {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.alert p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.alert b {
+    font-weight: bold;
+}

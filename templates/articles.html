@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock %}
+{% block body %}
+<div class="container">
+  <div class="row">
+    {% for el in data[::2] %}
+      <div class="col-md-6">
+        <div class="containerrr">
+          <div class="alert">
+            <h2>{{ el.title }}</h2>
+            <p>{{ el.intro }}</p>
+            <p><b>Date: {{ el.date.date() }}</b></p>
+            <a href="/articles/{{ el.id }}" class="btn btn-primary">Details</a>
+          </div>
+        </div>
+      </div>
+      {% if loop.index < data|length %}
+        <div class="col-md-6">
+          <div class="containerrr">
+            <div class="alert">
+              <h2>{{ data[loop.index + 1].title }}</h2>
+              <p>{{ data[loop.index + 1].intro }}</p>
+              <p><b>Date: {{ data[loop.index + 1].date.date() }}</b></p>
+              <a href="/articles/{{ data[loop.index + 1].id }}" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
