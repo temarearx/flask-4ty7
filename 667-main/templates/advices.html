@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% endblock %}
+
+{% block body %}
+<div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="https://astanait.edu.kz/wp-content/uploads/2020/05/aitu-logo-3.png" alt="" width="300" height="150">
+    <h1 class="display-5 fw-bold text-body-emphasis">AITU SUPPORT</h1>
+    <div class="col-lg-6 mx-auto">
+        <h2 class="mt-5">DAILY ADVICE</h2>
+        <p id="advice"></p>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='script/script.js') }}"></script>
+{% endblock %}
